@@ -23,3 +23,5 @@ const resta = (a: number, b: number, printText: string) => {
 resta(2, 4, "Resta numbers 2 and 4, the result is: ")
 console.log(resta)
 console.log(suma)
+console.log(multiplicator)
+console.log(divide)
