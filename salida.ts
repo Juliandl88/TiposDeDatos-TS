@@ -1,34 +1,36 @@
+export  { } ;
+
 console.log("Hola mundo");
 
 //Types
 
-let myString: string = "Hello World";
+var myString: string = "Hello World";
 myString = 22 + "";
 
-let myNumber: number = 22;
+var myNumber: number = 22;
 
-let myBool: boolean = false;
+var myBool: boolean = false;
 
-let myVar: any = "Hello";
+var myVar: any = "Hello";
 myVar = true;
 
 // Strings
-let StringArray: string[] = ["item1", "item2", ""];
-let NumberArray: number[] = [1, 2, 3];
-let BooleanArray: boolean[] = [true, false, true];
-let AnyArray: any[] = [true, false, 1, "a"];
+var StringArray: string[] = ["item1", "item2", ""];
+var NumberArray: number[] = [1, 2, 3];
+var BooleanArray: boolean[] = [true, false, true];
+var AnyArray: any[] = [true, false, 1, "a"];
 
 //Tuples
 
-let strNumTuple: [string, number];
+var strNumTuple: [string, number];
 strNumTuple = ["hello", 1];
 //strNumTuple = ["hello", 1, "hola", 2];
 
 //void, null, undefined
 
-let myVoid: void = undefined;
-let myNull: null = null;
-let myUndefined: undefined = undefined;
+var myVoid: void = undefined;
+var myNull: null = null;
+var myUndefined: undefined = undefined;
 
 //document.write(typeof (myVoid));
 
@@ -38,7 +40,7 @@ function getSum(num1: number, num2: number): number {
   return num1 + num2;
 }
 
-let mySum = function (num1: number | string, num2: number | string): number {
+var mySum = function (num1: number | string, num2: number | string): number {
   if (typeof num1 === "string") {
     num1 = parseInt(num1);
   }
@@ -104,7 +106,7 @@ class User {
 
 }
 
-let Juan = new User("Juan", "juan@juan.com", 23);
+var Juan = new User("Juan", "juan@juan.com", 23);
 
 console.log(Juan.register());
 
@@ -121,8 +123,8 @@ class Member extends User {
     }
 }
 
-let gordon = new Member(1, "Gordon", "g@gmail.com", 23);
+var gordon = new Member(1, "Gordon", "g@gmail.com", 23);
 
-gordon.payInvoice();
+gordon.payInvoice 
 
 document.write();

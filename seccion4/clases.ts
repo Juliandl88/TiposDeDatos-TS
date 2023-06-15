@@ -207,11 +207,11 @@ function mostrarGenerica<T>(dato:T):T{  // FUNCTION GENERICA
     return dato;
 }
 
-console.log(mostrarGenerica("Chau"));
+console.log(mostrarGenerica("Hola"));
 
 //CLASES GENERICAS
 
-class Persona5<T>{
+class Persona4<T>{
     nombre:string;
     edad:T;
 
@@ -219,7 +219,7 @@ class Persona5<T>{
 
 }
 
-const obj = new Persona5();
+const obj = new Persona4();
 
 //INTERFACES GENERICAS
 
