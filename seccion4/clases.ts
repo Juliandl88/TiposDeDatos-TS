@@ -207,7 +207,7 @@ function mostrarGenerica<T>(dato:T):T{  // FUNCTION GENERICA
     return dato;
 }
 
-console.log(mostrarGenerica("Hola"));
+console.log(mostrarGenerica("Hoeloo world"));
 
 //CLASES GENERICAS
 
