@@ -201,7 +201,7 @@ function mostrar(dato:string):string {    // FUNCTION ESTANDAR
     return dato;
 }
 
-console.log(mostrar("Hola"));
+console.log(mostrar("Bienvenido"));
 
 function mostrarGenerica<T>(dato:T):T{  // FUNCTION GENERICA
     return dato;
